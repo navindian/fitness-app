@@ -21,7 +21,7 @@ medicalHistory:{type:String},
 activityLevel:{type:String},
 occupation:{type:String},
 socialMode:{type:String},
-rewards:{type:Integer},
+rewards:{type:Number},
 userName:{type:String},
 password:{type:String,minLength:[7,"password should have atleast 7 characters"],maxLength:[15,"password should not exceed 15 characters"]},
 },{collection:"Employee"});
